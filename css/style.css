@@ -1,0 +1,233 @@
+*{
+	margin:0 auto;
+	padding:0;
+	box-sizing:border-box;
+	font-family:arial,Sans-serif;
+}	
+.container{
+	width:90%;
+	margin:0 auto;
+}
+.row{
+	display:flex;
+	flex-wrap:wrap;
+	
+}
+.col-1{
+	width:8.33%;
+	padding:0 15px;
+}
+.col-2{
+	width:16.66%;
+	padding:0 15px;
+}
+.col-3{
+	width:25%;
+	padding:0 15px;
+}
+.col-4{
+	width:33.33%;
+	padding:0 15px;
+}
+.col-5{
+	
+	width:41.66%;
+	padding:0 15px;
+}
+.col-6{
+	width:50%;
+	padding:0 15px;
+}
+.col-7{
+	width:58.33%;
+	padding:0 15px;
+}
+.col-8{
+	width:66.66%;
+	padding:0 15px;
+}
+.col-9{
+	width:75%;
+	padding:0 15px;
+}
+.col-10{
+	width:83.33%;
+	padding:0 15px;
+}
+.col-11{
+	width:91.66%;
+	padding:0 15px;
+}
+.col-12{
+	width:100%;
+	padding:0 15px;
+}
+#sec-1{
+	margin-top:20px;
+}
+.centre{
+	align-items:center;
+}
+.multi{
+	color:#43438c;
+	font-weight:300;
+}
+.list{
+	display:flex;
+	list-style:none;
+	justify-content:space-evenly;
+}
+.list li a {
+	text-decoration:none;
+	color:black;
+}
+.list .clr{
+	color:orange;
+}
+.list a:hover{
+	color:orange;
+}
+.button a{
+	text-decoration:none;
+	padding:10px 20px;
+	background-color:orange;
+	color:white;
+	border-radius:5px;
+	
+}
+#sec-2{
+	margin-top:20px;
+	height:90vh;
+	background:linear-gradient(black,#00000078),url("../images/slide-3.jpg");
+	background-position:centre;
+	background-size:cover;
+	overflow:hidden;
+}
+.none{
+	display:none;
+}
+.cont{
+	padding-top:30px;
+}
+#sec-2 .button{
+	padding-top:30px;
+}
+.content{
+	padding-top:15%;
+	color:white;
+	align-items:center;
+}
+.content h1{
+	font-size:36px;
+	font-weight:700;
+}
+#sec-3{
+	margin-top:20px;
+	position:relative;
+}
+.abt h4{
+	color:grey;
+}
+.abt h2{
+	font-size:bolder;
+	font-weight:700;
+	padding-top:20px;
+}
+.abt h4::after{
+	content:" ";
+	display:inline-block;
+	position:absolute;
+	width:70px;
+	height:1px;
+	background-color:orange;
+	top:9px;
+    left:12%;
+}
+.para{
+	padding-top:40px;
+}
+.para p{
+	padding-bottom:20px;
+}
+.para i{
+	padding-right:10px;
+	color:orange;
+	font-size:20px;
+}
+#sec-3 .button{
+	padding-top:30px;
+}
+#sec-3 .button a{
+	background-color:white;
+	color:orange;
+	border:solid 1px orange;
+}
+#sec-3 .button a:hover{
+	background-color:orange;
+	color:white;
+}
+.small-card{
+	padding:20px 30px;
+	background-color:white;
+	border:solid 1px white;
+	height:35vh;
+	box-shadow:0 0 10px #00000092;
+}
+.card-1{
+	padding-top:20px;
+}
+
+.icn{
+	display:flex;
+	font-size:32px;
+	font-weight:400;	
+}
+.num{
+	padding-bottom:20px;
+	padding-right:25px;
+}
+.icon{
+	padding-top:25px;
+	color:orange;
+}
+.small-card p {
+	font-size:14px;
+	padding-bottom:20px;
+}
+.small-card a{
+	font-size:16px;
+	font-weight:700;
+	text-decoration:none;
+	color:#43438c;
+}
+	
+		
+
+
+	
+/* #sec-4{ */
+	/* margin-top:40px; */
+/* } */
+/* .why-us{ */
+	/* height:90vh; */
+	/* background:url("../images/why-us.jpg"); */
+	/* background-position:centre; */
+	/* background-size:cover; */
+/* } */
+/* .sub-para{ */
+	/* padding:50px 90px; */
+/* } */
+/* .why-para h1{ */
+	/* font-size:38px; */
+	/* color:#43438c; */
+	/* padding-bottom:10px; */
+/* } */
+/* .why-para p{ */
+	/* padding-bottom:20px; */
+	/* color:grey; */
+/* } */
+/* .size{ */
+	/* font-weight:100; */
+/* } */
+
+	
