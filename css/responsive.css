@@ -1,6 +1,6 @@
-@media(max-width:768px){
+@media(min-width:200px) and (max-width:767px){
 	.container{
-		width:100%;
+		width:90%;
 	}
 	.col-mb-1{
 	width:8.33%;
@@ -58,114 +58,113 @@
 	margin-left:0;
 	}
 /* Background img section */
-	.content{
-		padding-top:50%;
-		position:center;
+	
+	#banner{
+		text-align:center;
 	}
 /* About section */
-	.abt h4::after {
-    content: " ";
-    display: inline-block;
-    position: absolute;
-    width: 70px;
-    height: 1px;
-    background-color: #ed502e;
-    top: 28px;
-    left: 24%;
+	.abt_sub_title::after{
+		left:28%;
 	}
-	.small-card{
-	padding:28px 66px;
-	background-color:white;
-	border:solid 1px white;
-	height:25vh;
-	box-shadow:0 0 20px #00000092;
-    }
-	.card-2{
-		padding-top:15%;
-	}
-	.icon{
-		position:relative;
-		right:45%;
-	}
-	.num{
-		position:absolute;
-		right:42%;
-	}
-	.num-1{
-		padding-left:20%;
-	}
-	.num-2{
-		padding-right:28px;
+	.card-1{
+		padding-top:20px;
 	}
 /* Section_4 */
-	.small-card > p{
-		padding-top:23px;
-	}
-	.sub-para{
-		padding-top:30px;
-	}
-	.back-1{
-	background-color:white;
-	border:solid 1px white;
-	height:20vh;
-	}
-/* Service section */
-
-	.serv h2{
-		position:relative;
-	}
-	.serv h4::after{
-	content:" ";
-	display:inline-block;
+.why-us img{
+	height:300px;
+	width:100%;
+	object-fit:cover;
+	position:relative;
+	margin-left:0;
+}
+.icn-2{
 	position:absolute;
-	width:70px;
-	height:1px;
-	background-color:#ed502e;
-	top:28px;
-    left:24%;
-	}
-	.serv_card{
-		height:35vh;
-		padding:30px 30px; 
-	}
-	.serv_icn{
-		padding-top:15%;
+	color:#ed502e;
+	font-size:70px;
+	top:8%;
+	right:40%;
+}
+
+/* Service section */
+	.ser_sub_title::after{
+		left:35%;
 	}
 /* Testimonial section */
-.test_top{
-	margin-top:20px;
-}
-.test h4::after{
-	content:" ";
-	display:inline-block;
-	position:absolute;
-	width:90px;
-	height:1px;
-	background-color:#ed502e;
-	top:8%;
-    left:38%;
+	.test_sub_title::after{
+		left:55%;
 	}
-	.test_top{
-	margin-top:10px;
-	}
+	
 	.test_hide{
 		display:none;
 	}
-/* Call to action */
-	#sec_7 {
-		height:30vh;
+/* Portfolio section */
+	.port_sub_title::after{
+		left:40%;
 	}
-	.call_alin p{
-		padding:20px 13%;
-		text-align:center;
+	.portfolio_nav{
+	padding-left:22%;
 	}
-	.call_alin button{
-		margin-top:10px;
+	
+/* Team Section */
+	.team_sub_title::after{
+		left:25%;
+	}
+/* FAQ Section */
+	.faq_sub_title::after{
+		left:25%;
+	}
+	.faq_para{
+		display:block;
+		padding:20px 0;
+	}
+	.faq_cnt{
+		padding-bottom:20px;
+	}
+	
+	
+/* Contact section */
+	.contact_sub_title::after{
+		left:35%;
+	}
+	.contact_cnt{
+		padding:20px 0;
+	}
+	.contact_cnt1{
+		padding:20px 0;
+	}
+	.contact_cnt2{
+		padding:20px 0;
+	}
+	.form_group input,textarea{
+		width:100%;
+	}
+	.form button{
+		margin-left:60px;
+	}
+	
+/* Last section....... */
+	.last_2{
+		padding:20px 0;
+	}
+	.last_1{
+		font-size:11px;
+	}
+	.space button{
+	padding:9px 20px;
+	color:white;
+	background-color:#ed502e;
+	font-size:16px;
+	border:none;
+	border-radius:0 5px 5px 0;
+	margin-right:19px;
+	position:absolute;
+	right:0;
+	top:1px;
 	}
 }
-@media(min-width:768px) and  (max-width:999px){
+@media(min-width:768px) and (max-width:998px){
 	.container{
-	width:100%;
+	width:90%;
 	}
 	.col-tb-1{
 	width:8.33%;
@@ -220,123 +219,118 @@
 		display:none;
 	}
 /* background img section */
-	#sec-2{
-	margin-top:20px;
-	height:60vh;
-	background:linear-gradient(black,#00000078),url("../images/slide-3.jpg");
-	background-position:centre;
-	background-size:cover;
-	overflow:hidden;
+	#banner{
+		text-align:center;
+		
 	}
-	.content{
-		padding:20% 20%;
+	.cont p{
+		padding:0 40px;
 	}
-	.card{
-		margin-left:0;
-	}
+	
 /* About section */
-	.abt > h2{
-	position:relative;
+	.abt_sub_title::after{
+		left:10%;
 	}
-	.abt h4::after {
-    content: " ";
-    display: inline-block;
-    position: absolute;
-    width: 70px;
-    height: 1px;
-    background-color: #ed502e;
-    top:6.5%;
-    left: 26%;
-	}
-	.con-1{
-		padding:10% 12%;
-	}
-	.card-1{
-		padding-top:15%;
-	}
-	.small-card{
-	padding:28px 66px;
-	background-color:white;
-	border:solid 1px white;
-	height:20vh;
-	box-shadow:0 0 10px #00000092;
-    }
-	.icon{
-		position:relative;
-		right:45%;
-	}
-	.num{
-		position:absolute;
-		right:52%;
-	}
-	.num-1{
-		padding-left:20%;
-	}
-	.num-2{
-		padding-right:28px;
-	}
-	.small-card > p{
-		padding-top:23px;
+	#about .primary_btn{
+		padding-bottom:30px;
 	}
 /* section-4 */
-	.sub-para{
-		padding-top:30px;
+	.why-us img{
+		width:100%;
+		margin-left:0px;
 	}
-	.back-1{
-	padding:20px 30px;
-	background-color:white;
-	border:solid 1px white;
-	height:16vh;
-	}
-/* Service section */
-	.serv h2{
-		position:relative;
-	}
-	.serv h4::after{
-	content:" ";
-	display:inline-block;
+.icn-2{
 	position:absolute;
-	width:70px;
-	height:1px;
-	background-color:#ed502e;
-	top:28px;
-    left:30%;
-	}
-	.serv_card{
-		height:35vh;
-	}
-	.serv_icn{
-		padding-top:15%;
+	color:#ed502e;
+	font-size:70px;
+	top:24%;
+	right:42%;
+}
+/* Service section */
+	.ser_sub_title::after{
+		left:16%;
 	}
 /* Testimonial_section */
-	.test h4::after{
-	content:" ";
-	display:inline-block;
-	position:absolute;
-	width:70px;
-	height:1px;
-	background-color:#ed502e;
-	top:8%;
-    left:24%;
-	}
-	.test_top{
-	margin-top:10px;
+	.test_sub_title::after{
+		left:20%;
 	}
 	.test_hide{
 	display:none;
 	}
-/* Call to action */
-	#sec_7 {
-		height:25vh;
+	.test_top{
+		padding-left:50px;
 	}
-	.call_alin p{
-		padding:20px 19.5%;
-		text-align:center;
+/* Portfolio */
+	.port_sub_title::after{
+		left:15%;
 	}
-	.call_alin button{
-		margin-top:10px;
+
+/* Team Section */
+	.team_sub_title::after{
+		left:10%;
 	}
-}
+	.team_pic{
+		width:100%;
+	}
+/* FAQ Section */
+   
+	.faq_para{
+		display:block;
+		padding-bottom:20px;
+	}
+	.faq_icncnt1{
+		padding-right:46%;
+	}
+	.faq_icncnt3{
+		padding-right:36%;
+	}
+	.faq_icncnt{
+		padding-right:22%;
+	}
+	.faq_cnt{
+		padding-bottom:20px;
+		padding-top:40px;
+	}
+	.faq_cnt p{
+		padding-left:20px;
+	}
+/* Contact section */
+	.contact_sub_title::after{
+		left:14%;
+	}
+	.contact_cnt{
+		padding:20px 0;
+	}
+	.contact_cnt1{
+		width:48%;
+		padding:20px 0;
+	}
+	.contact_cnt2{
+		width:48%;
+		padding:20px 0;
+	}
+	.con_spac{
+		padding-top:40px;
+	}
+	.con_sec{
+		margin-top:2px;
+	}
+	.form_group input,textarea{
+		width:100%;
+	}
+	
+/* Last section....... */
+	.last_2{
+		padding:20px 0;
+	}
+	.space{
+		padding:0;
+		padding-right:40%;
+	}
+	#text{
+		padding:10px 40px;
+	}
+/* } */
 @media (min-width:999px){
 	.block{
 		display:block;

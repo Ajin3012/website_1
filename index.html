@@ -4,60 +4,78 @@
 	<meta charset="UTF-8"/>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>MULTI</title>
-	<link rel="stylesheet" href="css/style.css">
-	<link rel="stylesheet" href="css/font-awesome.min.css">
-	<link rel="stylesheet" href="css/responsive.css">
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/responsive.css">
 </head>
 <body>
 	<!-- Header-->
-	<section id="sec-1">
+	<section id="header">
 		<div class="container">
-			<div class="row centre">
-				<div class="col-2 col-mb-3 col-tb-6 card">
-					<div class="multi">
+			<div class="row align_centre">
+				<div class="col-4 col-mb-3 col-tb-6 card">
+					<div class="logo">
 						<h1>MULTI</h1>
 					</div>
 				</div>
-				<div class="col-8 hide">
+				<div class="col-6 hide">
 					<nav>
-						<ul class="list">
+						<ul class="nav_list">
 						<li><a href="#" class="clr">Home</a></li>
 						<li><a href="#">About</a></li>
 						<li><a href="#">Service</a></li>
 						<li><a href="#">Portfolio</a></li>
 						<li><a href="#">Team</a></li>
-						<li><a href="#">Dropdown<i class="bi bi-chevron-down"></i></a></li>
+						<li class="drop_down">
+							<a href="#">Dropdown<i class="bi bi-chevron-down"></i></a>
+							<ul class="dropdown_1">
+								<li><a href="#">Dropdown 1</a></li>
+								<li class="deep_down">
+									<a href="#">Deep Drop Down <i class="bi bi-chevron-right"></i></a>
+									<ul class="deep_down_1">
+										<li><a href="#">Deep Drop Down 1</a></li>
+										<li><a href="#">Deep Drop Down 2</a></li>
+										<li><a href="#">Deep Drop Down 3</a></li>
+										<li><a href="#">Deep Drop Down 4</a></li>
+										<li><a href="#">Deep Drop Down 5</a></li>
+									</ul>
+								</li>
+								<li><a href="#">Dropdown 2</a></li>
+								<li><a href="#">Dropdown 3</a></li>
+								<li><a href="#">Dropdown 4</a></li>
+							</ul>
+						</li>
 						<li><a href="#">Contact</a></li>
 						</ul>
 					</nav>
 				</div>
 				<div class="col-2 hide">
-					<div class="button">
+					<div class="primary_btn">
 						<a href="#">Get Stared</a>
 					</div>
 				</div>
 			</div>
 		</div>
 	</section>
-	<!--background img section-->
-	<section id="sec-2">
+	<!--banner section-->
+	<section id="banner">
 		<div class="container">
 			<div class="row">
 				<div class="col-6 col-mb-12 col-tb-12">
-					<div class="content">
-					<div class="cont">
-						<h1>Sequi ea ut et est quaerat</h1>
-					</div>
-					<div class="cont">
-						<p>Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea ut et est quaerat sequi nihil ut aliquam. Occaecati alias dolorem mollitia ut. Similique ea voluptatem. Esse doloremque accusamus repellendus deleniti vel. Minus et tempore modi architecto.</p>
-					</div>
-					<div class="button">
-						<a href="#">Read more</a>	
-					</div>
+					<div class="abt_content">
+						<div class="cont">
+							<h1>Sequi ea ut et est quaerat</h1>
+						</div>
+						<div class="cont">
+							<p>Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea ut et est quaerat sequi nihil ut aliquam. Occaecati alias dolorem mollitia ut. Similique ea voluptatem. Esse doloremque accusamus repellendus deleniti vel. Minus et tempore modi architecto.</p>
+						</div>
+						<div class="primary_btn">
+							<a href="#">Read more</a>	
+						</div>
 					</div>
 				</div>
 				<div class="col-6">
@@ -67,34 +85,34 @@
 		</div>
 	</section>
 	<!--About-->
-	<section id="sec-3">
+	<section id="about">
 		<div class="container con-1">
 			<div class="row">
-				<div class="col-12 col-mb-11 col-tb-11">
-					<div  class="abt">
-						<h4>ABOUT</h4>
+				<div class="col-12 col-mb-11 col-tb-12">
+					<div  class="section_head">
+						<h4 class="abt_sub_title">ABOUT</h4>
 						<h2>ABOUT US</h2>
 					</div>
 				</div>
-				<div class="col-6 col-mb-11 col-tb-11">
-					<div class="para">
+				<div class="col-6 col-mb-11 col-tb-12">
+					<div class="abt_para">
 					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
 					<p><i class="bi bi-check-all"></i>Ullamco laboris nisi ut aliquip ex ea commodo consequat</p>
 					<p><i class="bi bi-check-all"></i>Duis aute irure dolor in reprehenderit in voluptate velit</p>
 					<p><i class="bi bi-check-all"></i>Ullamco laboris nisi ut aliquip ex ea commodo consequat</p>
 					</div>
 				</div>
-				<div class="col-6 col-mb-11 col-tb-11">
-					<div class="para">
+				<div class="col-6 col-mb-11 col-tb-12">
+					<div class="abt_para">
 						<p>Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 					</div>
-					<div class="button">
+					<div class="primary_btn">
 						<a href="#">Learn more</a>
 					</div>
 				</div>
-				<div class="col-3 col-mb-12 col-tb-11 card-2 card-1 card-3">
-					<div class="small-card">
-						<div class="icn">
+				<div class="col-3 col-mb-12 col-tb-6 card-1 card-3">
+					<div class="about_card">
+						<div class="abt_icn">
 							<div class="icon"><i class="bi bi-emoji-smile"></i></div>
 							<div class="num"><h1>232</h1></div>
 						</div>
@@ -102,9 +120,9 @@
 						<a href="#">Find out more>></a>
 					</div>
 				</div>
-				<div class="col-3 col-mb-12 col-tb-11 card-3">
-					<div class="small-card">
-						<div class="icn">
+				<div class="col-3 col-mb-12 col-tb-6  card-3">
+					<div class="about_card">
+						<div class="abt_icn">
 							<div class="icon"><i class="bi bi-journal-richtext"></i></div>
 							<div class="num"><h1>521</h1></div>
 						</div>
@@ -112,9 +130,9 @@
 						<a href="#">Find out more>></a>
 					</div>
 				</div>
-				<div class="col-3 col-mb-12 col-tb-11 card-3">
-					<div class="small-card">
-						<div class="icn">
+				<div class="col-3 col-mb-12 col-tb-6 card-3">
+					<div class="about_card">
+						<div class="abt_icn">
 							<div class="icon"><i class="bi bi-headset"></i></div>
 							<div class="num"><h1 class="num-1">1463</h1></div>	
 						</div>
@@ -122,9 +140,9 @@
 						<a href="#">Find out more>></a>
 					</div>
 				</div>
-				<div class="col-3 col-mb-12 col-tb-11 card-3">
-					<div class="small-card">
-						<div class="icn">
+				<div class="col-3 col-mb-12 col-tb-6 card-3">
+					<div class="about_card">
+						<div class="abt_icn">
 							<div class="icon"><i class="bi bi-people"></i></div>
 							<div class="num"><h1 class="num-2">15</h1></div>
 						</div>
@@ -138,9 +156,12 @@
 	<!--section-4-->
 	<section id="sec-4">
 			<div class="row">
-				<div class="col-5 col-tb-12 col-mb-12 why-us">
+				<div class="col-5 col-tb-12 col-mb-12">
+					<div class="why-us">
+						<img src="images/why-us.jpg" alt="Human">
+					</div>
 					<div class="icn-2">
-					<i class="bi bi-play-circle-fill"></i>
+						<i class="bi bi-play-circle-fill"></i>
 					</div>
 				</div>
 				<div class="col-7 col-tb-12 col-mb-12 sub-para">
@@ -149,40 +170,46 @@
 						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Duis aute irure dolor in reprehenderit</p>
 					</div>
 					<div class="sub-1 back-1">
-						<div class="row">
+						<div class="row subb_1">
 							<h3 class="col-1 col-tb-1 col-mb-1">01</h3>
 							<h4 class="col-11 col-tb-11 col-mb-10"> Non consectetur a erat nam at lectus urna duis?</h4>
 						</div>
-						<p>Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet non curabitur gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus non.</p>
+						<div class="subb_para">
+							<p>Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet non curabitur gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus non.</p>
+						</div>
 					</div>
 					<div class="sub-1 back-1">
-						<div class="row">
+						<div class="row subb_1">
 							<h3 class="col-1 col-tb-1 col-mb-1">02</h3>
 							<h4 class="col-11 col-tb-11 col-mb-10">Feugiat scelerisque varius morbi enim nunc?</h4>
 						</div>
-						<p>Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.</p>
+						<div class="subb_para">
+							<p>Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.</p>
+						</div>
 					</div>
 					<div class="sub-1 back-1">
-						<div class="row">
+						<div class="row subb_1">
 							<h3 class="col-1 col-tb-1 col-mb-1">03</h3>
 							<h4 class="col-11 col-tb-11 col-mb-10">Dolor sit amet consectetur adipiscing elit?</h4>
 						</div>
-						<p>Eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci. Faucibus pulvinar elementum integer enim. Sem nulla pharetra diam sit amet nisl suscipit. Rutrum tellus pellentesque eu tincidunt. Lectus urna duis convallis convallis tellus. Urna molestie at elementum eu facilisis sed odio morbi quis</p>
+						<div class="subb_para">
+							<p>Eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci. Faucibus pulvinar elementum integer enim. Sem nulla pharetra diam sit amet nisl suscipit. Rutrum tellus pellentesque eu tincidunt. Lectus urna duis convallis convallis tellus. Urna molestie at elementum eu facilisis sed odio morbi quis</p>
+						</div>
 					</div>
 				</div>
 			</div>
 	</section>
 	<!--service-->
-	<section id="sec-5">
+	<section id="service_section">
 		<div class="container">
 			<div class="row">
-				<div class="col-12 col-tb-8 col-mb-12">
-					<div  class="serv">
-						<h4>SERVICE</h4>
+				<div class="col-12 col-tb-12 col-mb-12">
+					<div  class="section_head">
+						<h4 class="ser_sub_title">SERVICES</h4>
 						<h2>CHECK OUR SERVICE</h2>
 					</div>
 				</div>
-				<div class="col-4 col-tb-8 col-mb-12">
+				<div class="col-4 col-tb-6 col-mb-12">
 					<div class="serv_card">
 						<div class="serv_icn">
 							<i class="bi bi-dribbble"></i>
@@ -191,7 +218,7 @@
 						<p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p>
 					</div>
 				</div>
-				<div class="col-4 col-tb-8 col-mb-12">
+				<div class="col-4 col-tb-6 col-mb-12">
 					<div class="serv_card">
 						<div class="serv_icn">
 							<i class="bi bi-file-earmark-medical"></i>
@@ -200,7 +227,7 @@
 						<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore</p>
 					</div>
 				</div>
-				<div class="col-4 col-tb-8 col-mb-12">
+				<div class="col-4 col-tb-6 col-mb-12">
 					<div class="serv_card">
 						<div class="serv_icn">
 							<i class="bi bi-speedometer2"></i>
@@ -209,7 +236,7 @@
 						<p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia</p>
 					</div>
 				</div>
-				<div class="col-4 col-tb-8 col-mb-12">
+				<div class="col-4 col-tb-6 col-mb-12">
 					<div class="serv_card">
 						<div class="serv_icn">
 							<i class="bi bi-globe-americas"></i>
@@ -218,7 +245,7 @@
 						<p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis</p>
 					</div>
 				</div>
-				<div class="col-4 col-tb-8 col-mb-12">
+				<div class="col-4 col-tb-6 col-mb-12">
 					<div class="serv_card">
 						<div class="serv_icn">
 							<i class="bi bi-file-slides"></i>
@@ -227,7 +254,7 @@
 						<p>Quis consequatur saepe eligendi voluptatem consequatur dolor consequuntur</p>
 					</div>
 				</div>
-				<div class="col-4 col-tb-8 col-mb-12">
+				<div class="col-4 col-tb-6 col-mb-12">
 					<div class="serv_card">
 						<div class="serv_icn">
 							<i class="bi bi-binoculars"></i>
@@ -240,16 +267,16 @@
 		</div>
 	</section>
 	<!--Testimonials-->
-	<section id="sec_6">
+	<section id="testimonial_section">
 		<div class="container">
 			<div class="row">
-				<div class="col-12  col-mb-11 col-tb-11">
-					<div class="test">
-						<h4>TESTIMONIALS</h4>
+				<div class="col-12  col-mb-11 col-tb-12">
+					<div class="section_head">
+						<h4 class="test_sub_title">TESTIMONIALS</h4>
 						<h2>TESTIMONIALS</h2>
 					</div>
 				</div>
-				<div class="col-5 test_top col-mb-11 col-tb-9">
+				<div class="col-5 test_top col-mb-10 col-tb-9">
 					<div class="test_card">
 						<div class="test_img">
 							<img src="images/testimonials-1.jpg" alt="Men" width="79px" height="79px">
@@ -277,9 +304,9 @@
 		</div>
 	</section>
 	<!--Call to action section-->
-	<section id="sec_7">
+	<section id="call_to_action">
 		<div class="container">
-			<div class="row call_alin">
+			<div class="call_action">
 				<h2>Call To Action</h2>
 				<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 				<button>Call To Action</button>
@@ -287,17 +314,17 @@
 		</div>
 	</section>
 <!--Protfolio-->
-	<section id="sec_8">
+	<section id="portfolio_section">
 		<div class="container">
 			<div class="row">
-				<div class="col-12">
-					<div class="port">
-						<h4>PORTFOLIO</h4>
+				<div class="col-12 col-mb-12 col-tb-12">
+					<div class="section_head">
+						<h4 class="port_sub_title">PORTFOLIO</h4>
 						<h2>CHECK OUR PORTFOLIO</h2>
 					</div>
 				</div>
-				<div class="col-12">
-					<nav class="port_nav">
+				<div class="col-12 col-mb-12 col-tb-11">
+					<nav class="portfolio_nav">
 						<ul class="list_port">
 							<li><a href="#" class="clr">ALL</a></li>
 							<li><a href="#">APP</a></li>
@@ -306,49 +333,431 @@
 						</ul>
 					</nav>
 				</div>
-				<div class="col-4">
+				<div class="col-4 col-mb-11 col-tb-6 portcard">
 					<div class="port_img">
-						<img src="images/portfolio-1.jpg" alt="things" width="336px" height="252px">
+						<img src="images/portfolio-1.jpg" alt="things" class="port_size">
+					</div>
+					<div class="portcon">
+						<div class="portcon2">
+							<h2>App 1</h2>
+							<p>App</p>
+						</div>
+						<div class="portconicn">
+							<a href="#"><i class="bi bi-plus"></i></a>
+							<a href="#"><i class="bi bi-link-45deg"></i></a>
+						</div>
 					</div>
 				</div>
-				<div class="col-4">
+				<div class="col-4 col-mb-11 col-tb-6 portcard">
 					<div class="port_img">
-						<img src="images/portfolio-2.jpg" alt="things" width="336px" height="252px">
+						<img src="images/portfolio-2.jpg" alt="things" class="port_size">
+					</div>
+					<div class="portcon">
+						<div class="portcon2">
+							<h2>Web 3</h2>
+							<p>web</p>
+						</div>
+						<div class="portconicn">
+							<a href="#"><i class="bi bi-plus"></i></a>
+							<a href="#"><i class="bi bi-link-45deg"></i></a>
+						</div>
 					</div>
 				</div>
-				<div class="col-4">
+				<div class="col-4 col-mb-11 col-tb-6 portcard">
 					<div class="port_img">
-						<img src="images/portfolio-3.jpg" alt="things" width="336px" height="252px">
+						<img src="images/portfolio-3.jpg" alt="things" class="port_size">
+					</div>
+					<div class="portcon">
+						<div class="portcon2">
+							<h2>App 2</h2>
+							<p>App</p>
+						</div>
+						<div class="portconicn">
+							<a href="#"><i class="bi bi-plus"></i></a>
+							<a href="#"><i class="bi bi-link-45deg"></i></a>
+						</div>
 					</div>
 				</div>
-				<div class="col-4">
+				<div class="col-4 col-mb-11 col-tb-6 portcard">
 					<div class="port_img">
-						<img src="images/portfolio-4.jpg" alt="things" width="336px" height="252px">
+						<img src="images/portfolio-4.jpg" alt="things" class="port_size">
+					</div>
+					<div class="portcon">
+						<div class="portcon2">
+							<h2>Card 2</h2>
+							<p>card</p>
+						</div>
+						<div class="portconicn">
+							<a href="#"><i class="bi bi-plus"></i></a>
+							<a href="#"><i class="bi bi-link-45deg"></i></a>
+						</div>
 					</div>
 				</div>
-				<div class="col-4">
+				<div class="col-4 col-mb-11 col-tb-6 portcard">
 					<div class="port_img">
-						<img src="images/portfolio-5.jpg" alt="things" width="336px" height="252px">
+						<img src="images/portfolio-5.jpg" alt="things" class="port_size">
+					</div>
+					<div class="portcon">
+						<div class="portcon2">
+							<h2>Web 2</h2>
+							<p>Web</p>
+						</div>
+						<div class="portconicn">
+							<a href="#"><i class="bi bi-plus"></i></a>
+							<a href="#"><i class="bi bi-link-45deg"></i></a>
+						</div>
 					</div>
 				</div>
-				<div class="col-4">
+				<div class="col-4 col-mb-11 col-tb-6 portcard">
 					<div class="port_img">
-						<img src="images/portfolio-6.jpg" alt="things" width="336px" height="252px">
+						<img src="images/portfolio-6.jpg" alt="things" class="port_size">
+					</div>
+					<div class="portcon">
+						<div class="portcon2">
+							<h2>App 3</h2>
+							<p>App</p>
+						</div>
+						<div class="portconicn">
+							<a href="#"><i class="bi bi-plus"></i></a>
+							<a href="#"><i class="bi bi-link-45deg"></i></a>
+						</div>
 					</div>
 				</div>
-				<div class="col-4">
+				<div class="col-4 col-mb-11 col-tb-6 portcard">
 					<div class="port_img">
-						<img src="images/portfolio-7.jpg" alt="things" width="336px" height="252px">
+						<img src="images/portfolio-7.jpg" alt="things" class="port_size">
+					</div>
+					<div class="portcon">
+						<div class="portcon2">
+							<h2>Card 1</h2>
+							<p>Card</p>
+						</div>
+						<div class="portconicn">
+							<a href="#"><i class="bi bi-plus"></i></a>
+							<a href="#"><i class="bi bi-link-45deg"></i></a>
+						</div>
 					</div>
 				</div>
-				<div class="col-4">
+				<div class="col-4 col-mb-11 col-tb-6 portcard">
 					<div class="port_img">
-						<img src="images/portfolio-8.jpg" alt="things" width="336px" height="252px">
+						<img src="images/portfolio-8.jpg" alt="things" class="port_size">
+					</div>
+					<div class="portcon">
+						<div class="portcon2">
+							<h2>Card 3</h2>
+							<p>Card</p>
+						</div>
+						<div class="portconicn">
+							<a href="#"><i class="bi bi-plus"></i></a>
+							<a href="#"><i class="bi bi-link-45deg"></i></a>
+						</div>
+					</div>
+				</div>	
+				<div class="col-4 col-mb-11 col-tb-6 port_img1 portcard">
+					<div class="port_img">
+						<img src="images/portfolio-9.jpg" alt="things" class="port_size">
+					</div>
+					<div class="portcon">
+						<div class="portcon2">
+							<h2>Web 3</h2>
+							<p>Web</p>
+						</div>
+						<div class="portconicn">
+							<a href="#"><i class="bi bi-plus"></i></a>
+							<a href="#"><i class="bi bi-link-45deg"></i></a>
+						</div>
 					</div>
 				</div>
-				<div class="col-4">
-					<div class="port_img">
-						<img src="images/portfolio-9.jpg" alt="things" width="336px" height="252px">
+			</div>
+		</div>
+	</section>
+	<!--team section-->
+	<section id="team_section">
+		<div class="container">
+			<div class="row">
+				<div class="col-12 col-mb-12 col-tb-12">
+					<div class="section_head">
+						<h4 class="team_sub_title">TEAM</h4>
+						<h2>CHECK OUR TEAM</h2>
+					</div>
+				</div>
+				<div class="col-3 col-mb-11 col-tb-6">
+					<div class="team_img">
+						<img src="images/team-1.jpg" alt="human" class="team_pic">
+						<!-- <div class="teamm"> -->
+							<!-- <div class="teamicn"> -->
+								<!-- <a href="#"><i class="bi bi-twitter"></i></a> -->
+								<!-- <a href="#"><i class="bi bi-facebook"></i></a> -->
+								<!-- <a href="#"><i class="bi bi-instagram"></i></a> -->
+								<!-- <a href="#"><i class="bi bi-linkedin"></i></a> -->
+							<!-- </div> -->
+							<!-- <div class="hover_content"> -->
+								<!-- <h4>Walter White</h4> -->
+								<!-- <p><i>Chief Executive Office</i></p> -->
+							<!-- </div> -->
+							<!-- <div class="after_hover"> -->
+							<!-- </div> -->
+						<!-- </div> -->
+					</div>
+				</div>
+				<div class="col-3 col-mb-11 col-tb-6">
+					<div class="team_img">
+						<img src="images/team-2.jpg" alt="human" class="team_pic">
+						<!-- <div class="teamm"> -->
+							<!-- <div class="teamicn"> -->
+								<!-- <a href="#"><i class="bi bi-twitter"></i></a> -->
+								<!-- <a href="#"><i class="bi bi-facebook"></i></a> -->
+								<!-- <a href="#"><i class="bi bi-instagram"></i></a> -->
+								<!-- <a href="#"><i class="bi bi-linkedin"></i></a> -->
+							<!-- </div> -->
+							<!-- <div class="hover_content"> -->
+								<!-- <h4>Walter White</h4> -->
+								<!-- <p><i>Chief Executive Office</i></p> -->
+							<!-- </div> -->
+							<!-- <div class="after_hover"> -->
+							<!-- </div> -->
+					</div>
+				</div>
+					<!-- </div> -->
+				<div class="col-3 col-mb-11 col-tb-6">
+					<div class="team_img">
+						<img src="images/team-3.jpg" alt="human" class="team_pic">
+						<!-- <div class="teamm"> -->
+							<!-- <div class="teamicn"> -->
+								<!-- <a href="#"><i class="bi bi-twitter"></i></a> -->
+								<!-- <a href="#"><i class="bi bi-facebook"></i></a> -->
+								<!-- <a href="#"><i class="bi bi-instagram"></i></a> -->
+								<!-- <a href="#"><i class="bi bi-linkedin"></i></a> -->
+							<!-- </div> -->
+							<!-- <div class="hover_content"> -->
+								<!-- <h4>Sarah Jhonson</h4> -->
+								<!-- <p><i>Product Manager</i></p> -->
+							<!-- </div> -->
+							<!-- <div class="after_hover"> -->
+							<!-- </div> -->
+						<!-- </div> -->
+					</div>
+				</div>
+				<div class="col-3 col-mb-11 col-tb-6">
+					<div class="team_img">
+						<img src="images/team-4.jpg" alt="human" class="team_pic">
+						<!-- <div class="teamm"> -->
+							<!-- <div class="teamicn"> -->
+								<!-- <a href="#"><i class="bi bi-twitter"></i></a> -->
+								<!-- <a href="#"><i class="bi bi-facebook"></i></a> -->
+								<!-- <a href="#"><i class="bi bi-instagram"></i></a> -->
+								<!-- <a href="#"><i class="bi bi-linkedin"></i></a> -->
+							<!-- </div> -->
+							<!-- <div class="hover_content"> -->
+								<!-- <h4>William Anderson</h4> -->
+								<!-- <p><i>CTO</i></p> -->
+							<!-- </div> -->
+							<!-- <div class="after_hover"> -->
+							<!-- </div> -->
+						<!-- </div> -->
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!--faq section-->
+	<section id="faq_section">
+		<div class="container">
+			<div class="row">
+				<div class="col-12 col-mb-11 col-tb-12">
+					<div class="section_head">
+						<h4 class="faq_sub_title">F.A.Q</h4>
+						<h2>FREQUENTLY ASKED QUESTIONS</h2>
+					</div>
+				</div>
+				<div class="faq_para col-12 col-mb-12 col-tb-12">
+					<div class="col-5 col-mb-12 col-tb-12">
+						<div class="faq_cnt">
+							<i class="bi bi-question-circle"></i>
+							<p>Non consectetur a erat nam at lectus urna duis?</p>
+						</div>
+					</div>
+					<div class="col-7 col-mb-12 col-tb-12">
+						<p>Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet non curabitur gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus non.</p>
+					</div>
+				</div>
+				<div class="faq_para col-12 col-mb-12 col-tb-12">
+					<div class="col-5 col-mb-12 col-tb-12">
+						<div class="faq_cnt">
+							<i class="bi bi-question-circle"></i>
+							<p>Feugiat scelerisque varius morbi enim nunc faucibus a pellentesque?</p>
+						</div>
+					</div>
+					<div class="col-7 col-mb-12 col-tb-12">
+						<p>Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim.</p>
+					</div>
+				</div>	
+				<div class="faq_para col-12 col-mb-12 col-tb-12">
+					<div class="col-5 col-mb-12 col-tb-12">
+						<div class="faq_cnt">
+							<i class="bi bi-question-circle"></i>
+							<p>Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi?</p>
+						</div>
+					</div>
+					<div class="col-7 col-mb-12 col-tb-12">
+						<p>Eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci. Faucibus pulvinar elementum integer enim. Sem nulla pharetra diam sit amet nisl suscipit. Rutrum tellus pellentesque eu tincidunt. Lectus urna duis convallis convallis tellus.</p>
+					</div>
+				</div>
+				<div class="faq_para col-12 col-mb-12 col-tb-12">
+					<div class="col-5 col-mb-12 col-tb-12">
+						<div class="faq_cnt">
+							<i class="bi bi-question-circle"></i>
+							<p>Ac odio tempor orci dapibus. Aliquam eleifend mi in nulla?</p>
+						</div>
+					</div>
+					<div class="col-7 col-mb-12 col-tb-12">
+						<p>Aperiam itaque sit optio et deleniti eos nihil quidem cumque. Voluptas dolorum accusantium sunt sit enim. Provident consequuntur quam aut reiciendis qui rerum dolorem sit odio. Repellat assumenda soluta sunt pariatur error doloribus fuga.</p>
+					</div>
+				</div>
+				<div class="faq_para col-12 col-mb-12 col-tb-12">
+					<div class="col-5 col-mb-12 col-tb-12">
+						<div class="faq_cnt">
+							<i class="bi bi-question-circle"></i>
+							<p>Tempus quam pellentesque nec nam aliquam sem et tortor consequat?</p>	
+						</div>
+					</div>
+					<div class="col-7 col-mb-12 col-tb-12">
+						<p>Molestie a iaculis at erat pellentesque adipiscing commodo. Dignissim suspendisse in est ante in. Nunc vel risus commodo viverra maecenas accumsan. Sit amet nisl suscipit adipiscing bibendum est. Purus gravida quis blandit turpis cursus in.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!--Contact section-->
+	<section id="contact_section">
+		<div class="container">
+			<div class="row">
+				<div class="col-12 col-tb-12 col-mb-12">
+					<div class="section_head">
+						<h4 class="contact_sub_title">CONTACT</h4>
+						<h2>CONTACT US</h2>
+					</div>
+				</div>
+				<div class="col-6 con_sec col-tb-12 col-mb-12 con_spac">
+					<div class="row">
+						<div class="col-12 contact_cnt col-tb-12 col-mb-12">
+							<div class="icn_con">
+								<i class="bi bi-geo-alt"></i>
+							</div>
+							<div class="para_con">
+								<h2>Our Address</h2>
+								<p>A108 Adam Street, New York, NY 535022</p>
+							</div>
+						</div>
+						<div class="col-6 contact_cnt1 col-tb-6 col-mb-12">
+							<div class="icn_con">
+								<i class="bi bi-envelope"></i>
+							</div>
+							<div class="para_con">
+								<h2>Email Us</h2>
+								<p>info@example.com</p>
+								<p>contact@example.com</p>
+							</div>
+						</div>
+						<div class="col-6 contact_cnt2 col-tb-6 col-mb-12">
+							<div class="icn_con">
+								<i class="bi bi-telephone"></i>	
+							</div>
+							<div class="para_con">
+								<h2>Call Us</h2>
+								<p>+1 5589 55488 55</p>
+								<p>+1 6678 254445 41</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-6 con_sec col-tb-12 col-mb-12">
+					<div class="form">
+						<form action="#" method="post">
+						<div class="row">
+							<div class="col-6 col-mb-12 col-tb-6">
+								<div class="form_group">
+									<input type="text" id="name" placeholder="Your Name">
+								</div>
+							</div>	
+							<div class="col-6 col-mb-12 col-tb-6">
+								<div class="form_group">
+									<input type="text" id="email" placeholder="Your Email">
+								</div>
+							</div>
+							<div class="col-12 col-mb-12 col-tb-12">
+								<div class="form_group">
+									<input type="text" id="subject" placeholder="Subject">
+								</div>
+							</div>
+							<div class="col-12 col-mb-12 col-tb-12">
+								<div class="form_group">
+									<textarea id="message" name="message" rows="7" cols="55" placeholder=" Message"></textarea>
+								</div>
+							</div>
+						</div>
+						<button class="button_form">Send Message</button>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!--section_12 last-->
+	<section id="sec_12">
+		<div class="container">
+			<div class="row hr_line">
+				<div class="col-4 col-tb-6 col-mb-12">
+					<div class="last_1">
+						<h2>Multi</h2>
+						<p>Qui repudiandae et eum dolores alias sed ea. Qui suscipit veniam excepturi quod.</p>
+						<p><pre>A108 Adam Street  
+NY 535022, USA</pre></p>
+						<p><strong>Phone</strong>: +1 5589 55488 55</p>
+						<p><strong>Email</strong>: info@example.com</p>
+						<div><i class="bi bi-twitter last_icn"></i><i class="bi bi-facebook last_icn"></i><i class="bi bi-instagram last_icn"></i><i class="bi bi-skype last_icn"></i><i class="bi bi-linkedin last_icn"></i></div>
+					</div>
+				</div>
+				<div class="col-2 col-tb-6 col-mb-12">
+					<div class="last_2">
+						<h3>Useful Link</h3>
+						<ul>
+							<li><i class="fa fa-angle-right" aria-hidden="true"></i>Home</li>
+							<li><i class="fa fa-angle-right" aria-hidden="true"></i>About us</li>
+							<li><i class="fa fa-angle-right" aria-hidden="true"></i>Service</li>
+							<li><i class="fa fa-angle-right" aria-hidden="true"></i>Terms of service</li>
+							<li><i class="fa fa-angle-right" aria-hidden="true"></i>Privacy policy</li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-2 col-tb-6 col-mb-12">
+					<div class="last_2">
+						<h3>Our Service</h3>
+						<ul>
+							<li><i class="fa fa-angle-right" aria-hidden="true"></i>Web Design</li>
+							<li><i class="fa fa-angle-right" aria-hidden="true"></i>Web Development</li>
+							<li><i class="fa fa-angle-right" aria-hidden="true"></i>Product Management</li>
+							<li><i class="fa fa-angle-right" aria-hidden="true"></i>Marketing</li>
+							<li><i class="fa fa-angle-right" aria-hidden="true"></i>Graphic Design</li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-4 col-tb-6 col-mb-12">
+					<div class="last_3">
+						<h3>Our Newsletter</h3>
+						<p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
+						<div class="space">
+								<input type="text" id="text">
+								<button>Subscribe</button>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="last_foot">
+				<div class="col-12 col-tb-12 col-mb-12">
+					<div class="footer">
+						<p>© Copyright <strong>Multi.</strong> All Rights Reserved</p>
+						<p>Designed by <a href="#" class="span_clr">AJIN</a></p>
 					</div>
 				</div>
 			</div>
